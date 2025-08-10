@@ -202,7 +202,7 @@ export default function Home() {
             Whether you're seeking a comfortable stay or looking for hassle-free property management,
             Valora delivers exceptional value and peace of mind.
           </p>
-          <Button asChild className="bg-gold-DEFAULT hover:bg-gold-dark text-black px-8 py-6 text-lg btn-luxury scroll-animate fade-up delay-300">
+          <Button asChild className="bg-gold-DEFAULT hover:bg-gold-dark text-white px-8 py-6 text-lg btn-luxury scroll-animate fade-up delay-300">
             <Link to="/contact">Contact Us</Link>
           </Button>
         </div>

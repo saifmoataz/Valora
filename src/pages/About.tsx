@@ -147,14 +147,14 @@ export default function About() {
               <div className="bg-white rounded-lg overflow-hidden shadow-lg">
                 <img 
                   src={teamImage1} 
-                  alt="Sarah Ahmed - CEO" 
+                  alt="Mohamed Osam - CEO" 
                   className="w-full h-80 object-cover object-center"
                 />
                 <div className="p-6">
-                  <h3 className="font-serif text-2xl mb-2">Sarah Ahmed</h3>
+                  <h3 className="font-serif text-2xl mb-2">Mohamed Osam</h3>
                   <p className="text-gold-DEFAULT font-medium mb-4">CEO & Founder</p>
                   <p className="text-gray-600">
-                    With over 15 years of experience in luxury real estate and hospitality,
+                    With over 10 years of experience in luxury real estate and hospitality,
                     Sarah leads Valora with vision and passion.
                   </p>
                 </div>
@@ -166,14 +166,14 @@ export default function About() {
               <div className="bg-white rounded-lg overflow-hidden shadow-lg">
                 <img 
                   src={teamImage2} 
-                  alt="Omar Karim - COO" 
+                  alt="Moataz Osam - COO" 
                   className="w-full h-80 object-cover object-center"
                 />
                 <div className="p-6">
-                  <h3 className="font-serif text-2xl mb-2">Omar Karim</h3>
+                  <h3 className="font-serif text-2xl mb-2">Moataz Osam</h3>
                   <p className="text-gold-DEFAULT font-medium mb-4">Chief Operations Officer</p>
                   <p className="text-gray-600">
-                    Omar oversees all operational aspects of Valora, ensuring
+                    Moataz oversees all operational aspects of Valora, ensuring
                     seamless service delivery and exceptional guest experiences.
                   </p>
                 </div>
@@ -185,15 +185,14 @@ export default function About() {
               <div className="bg-white rounded-lg overflow-hidden shadow-lg">
                 <img 
                   src={teamImage3} 
-                  alt="Layla Hassan - Design Director" 
+                  alt="Baheej Mahros - Chief Financial Officer" 
                   className="w-full h-80 object-cover object-center"
                 />
                 <div className="p-6">
-                  <h3 className="font-serif text-2xl mb-2">Layla Hassan</h3>
-                  <p className="text-gold-DEFAULT font-medium mb-4">Design Director</p>
+                  <h3 className="font-serif text-2xl mb-2">Baheej Mahros</h3>
+                  <p className="text-gold-DEFAULT font-medium mb-4">Chief Financial Officer</p>
                   <p className="text-gray-600">
-                    Layla brings creative vision to every Valora property, curating
-                    spaces that embody luxury, comfort and timeless elegance.
+                    Baheej is the Chief Financial Officer, overseeing the company’s financial strategy, budgeting, and overall fiscal health.
                   </p>
                 </div>
               </div>

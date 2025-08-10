@@ -246,7 +246,7 @@ export default function Apartments() {
             Don't see what you're looking for? Contact us for personalized assistance
             in finding an apartment that meets your specific needs and preferences.
           </p>
-          <Button asChild className="bg-gold-DEFAULT hover:bg-gold-dark text-black px-8 py-6 text-lg btn-luxury scroll-animate fade-up delay-300">
+          <Button asChild className="bg-gold-DEFAULT hover:bg-gold-dark text-white px-8 py-6 text-lg btn-luxury scroll-animate fade-up delay-300">
             <a href="/contact">Contact Us</a>
           </Button>
         </div>
