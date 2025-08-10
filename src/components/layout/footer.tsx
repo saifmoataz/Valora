@@ -135,9 +135,6 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/apartments" className="text-gray-400 hover:text-gold-DEFAULT transition-colors">
-                  Apartments
-                </Link>
               </li>
               <li>
                 <Link to="/contact" className="text-gray-400 hover:text-gold-DEFAULT transition-colors">

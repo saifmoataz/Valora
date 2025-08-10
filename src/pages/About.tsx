@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 
 // Sample images (these would be replaced with actual images)
-const aboutHeroImage = "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80";
+const aboutHeroImage = "https://hips.hearstapps.com/hmg-prod/images/hbx060118obeid01-read-mckendree-large-66e9c350833d0.jpeg?crop=0.668xw:1.00xh;0.114xw,0&resize=1200:*";
 const teamImage1 = "https://static.vecteezy.com/system/resources/thumbnails/044/245/414/small_2x/confident-young-businessman-writing-on-a-clipboard-png.png";
-const teamImage2 = "https://static.vecteezy.com/system/resources/thumbnails/044/245/414/small_2x/confident-young-businessman-writing-on-a-clipboard-png.png";
+const teamImage2 = `${import.meta.env.BASE_URL}images/Moataz osam.jpg`;
 const teamImage3 = "https://static.vecteezy.com/system/resources/thumbnails/044/245/414/small_2x/confident-young-businessman-writing-on-a-clipboard-png.png";
 
 export default function About() {
@@ -240,7 +240,7 @@ export default function About() {
                 <h3 className="font-serif text-2xl mb-3">Foundation</h3>
                 <p className="text-gray-600">
                   Valora was established with a vision to transform luxury living in Cairo,
-                  starting with our first property in Zamalek.
+                  starting with our first property in Dreamland.
                 </p>
               </div>
             </div>
@@ -267,8 +267,7 @@ export default function About() {
               <div className="mt-2 bg-white p-6 shadow-lg rounded-lg">
                 <h3 className="font-serif text-2xl mb-3">Expansion</h3>
                 <p className="text-gray-600">
-                  We expanded our portfolio to include properties in New Cairo and 
-                  Maadi, establishing Valora as a premier luxury brand.
+                  We expanded our portfolio to include properties in Sheik Zayed, establishing Valora as a premier luxury brand.
                 </p>
               </div>
             </div>
@@ -295,7 +294,7 @@ export default function About() {
               <div className="mt-2 bg-white p-6 shadow-lg rounded-lg">
                 <h3 className="font-serif text-2xl mb-3">Today</h3>
                 <p className="text-gray-600">
-                  Today, Valora manages a portfolio of 50+ luxury properties across
+                  Today, Valora manages a portfolio of 20+ luxury properties across
                   Cairo's most prestigious neighborhoods, with plans for further expansion.
                 </p>
               </div>

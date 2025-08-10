@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 
 // Sample images (these would be replaced with actual images)
-const heroImage1 = "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80";
-const heroImage2 = "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80";
-const featureImage1 = "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80";
-const featureImage2 = "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80";
-const featureImage3 = "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80";
+const heroImage1 = "https://media.ema-house.ch/filer_public_thumbnails/filer_public/69/43/6943012b-71af-4735-bcc4-24d8263012ee/emahouse-florastrasse-l-allink_h8a5340-header.jpg__984x656_q100_HIGH_RESOLUTION_crop-smart_subsampling-2.jpg";
+const heroImage2 = "https://media.vrbo.com/lodging/35000000/34030000/34021400/34021386/703ef434.jpg?impolicy=resizecrop&rw=1200&ra=fit";
+const featureImage1 = "https://images.trvl-media.com/lodging/102000000/101520000/101516100/101516075/bba7fc14.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill";
+const featureImage2 = "https://images.squarespace-cdn.com/content/v1/51a46a47e4b07c0410a9758a/1742397948905-IDFY42IYDCALLJ1ZLSXP/13+-+Dining%2C+Lounge+%28alt%29.jpg";
+const featureImage3 = "https://media.vrbo.com/lodging/35000000/34030000/34021400/34021386/6ff2ed45.jpg?impolicy=resizecrop&rw=1200&ra=fit";
 
 export default function Home() {
   // References for elements that will be animated
