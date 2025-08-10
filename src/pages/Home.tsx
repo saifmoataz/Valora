@@ -85,7 +85,7 @@ export default function Home() {
             className="mx-auto h-32 mb-6"
           />
           <h2 className="font-serif text-white text-xl md:text-2xl tracking-wider">
-            LUXURY SERVICE APARTMENT
+            LUXURY REDEFINED SERVICE APARTMENT
           </h2>
         </div>
         
