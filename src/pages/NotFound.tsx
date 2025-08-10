@@ -1,7 +1,15 @@
-import { Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
+import { useEffect } from "react";
+import { Button } from "@/components/ui/button";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function NotFound() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Redirect to main page immediately
+    navigate("/", { replace: true });
+  }, [navigate]);
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white p-6 text-center">
       <div className="space-y-8 max-w-md">
