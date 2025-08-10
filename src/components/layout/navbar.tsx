@@ -41,7 +41,7 @@ export function Navbar() {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
             <img
-              src="/images/Valora circle.png"
+              src={`${import.meta.env.BASE_URL}images/Valora circle.png`}
               alt="Valora Logo"
               className="h-10 w-auto"
             />

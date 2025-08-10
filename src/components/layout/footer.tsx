@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <Link to="/" className="inline-block mb-6">
-              <img src="/images/Valora.png" alt="Valora Logo" className="h-20" />
+              <img src={`${import.meta.env.BASE_URL}images/Valora.png`} alt="Valora Logo" className="h-20" />
             </Link>
             <p className="text-gray-400 mb-6">
               A new benchmark in luxury living with high-quality branded apartments

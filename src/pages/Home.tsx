@@ -80,7 +80,7 @@ export default function Home() {
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 fade-up text-center"
         >
           <img 
-            src="/images/Valora circle.png" 
+            src={`${import.meta.env.BASE_URL}images/Valora circle.png`} 
             alt="Valora" 
             className="mx-auto h-32 mb-6"
           />
